@@ -4,7 +4,7 @@
 	
 	if (ltrim(rtrim($res)) != "Mail queue is empty" && sizeof($res)) {
 		
-		mail("support@buzzcloud.com.au"
+		mail("email@email.com"
 		, "WARNING!!! wpsearch results"
 		, $res);
 		

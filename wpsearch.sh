@@ -14,7 +14,7 @@ grep -lr --include=*.php 'eval(' /var/www/vhosts/*/httpdocs/wp-content/uploads/ 
 grep -lr --include=*.php 'eval (' /var/www/vhosts/*/httpdocs/wp-content/uploads/ ;
 grep -lr --include=*.php '<form method="POST" action="" enctype="multipart/form-data"><input type="file" name="image"><input type="Submit" name="Submit" value="Submit"></form>' /var/www/vhosts/ ;
 grep -lr --include=*.suspected '' /var/www/vhosts/ ;
-grep -lr --include=*.php "strtolower($sF" /var/www/vhosts/ ;
+grep -lr --include=.*.php "strtolower($sF" /var/www/vhosts/ ;
 
 ###
 # WARNING : Only uncomment these lines to deep search. 
